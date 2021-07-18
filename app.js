@@ -21,7 +21,7 @@ app.use('/feed', feedRoutes);
 mongoose
   .connect(
     //You need to past you URL here 
-    'mongodb+srv://shivdadhania:shivat1410@cluster0.aodky.mongodb.net/task?retryWrites=true&w=majority'
+    'URL'
   )
   .then(result => {
     console.log('connected');
